@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/moods";
+const API_URL = "https://moodly-api-8ssu.onrender.com";
 
 const moods = [
   { emoji: "😊", name: "Happy", color: "#ffe5a8" },
